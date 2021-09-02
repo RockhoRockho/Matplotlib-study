@@ -2,7 +2,7 @@
 
 --
 
-## matplotlib Day 1
+## matplotlib Day 1 (2021-08-31)
 
 - Matplotlib 특징 학습
 - 라인 플롯 학습(`plt.Figure()`, `plt.Axes()`)
@@ -21,7 +21,7 @@
 
 --
 
-## matplotlib Day 2
+## matplotlib Day 2 (2021-09-01)
 
 - 스템플롯 학습(`stem()`)
 - 박스플롯 학습(`boxplot()`)
