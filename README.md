@@ -1,8 +1,8 @@
-# matplotlib-note
+# matplotlib-studynote
 
 --
 
-## matplotlib Day 1 (2021-08-31)
+## Day 1 (2021-08-31)
 
 - Matplotlib 특징 학습
 - 라인 플롯 학습(`plt.Figure()`, `plt.Axes()`)
@@ -21,7 +21,7 @@
 
 --
 
-## matplotlib Day 2 (2021-09-01)
+## Day 2 (2021-09-01)
 
 - 스템플롯 학습(`stem()`)
 - 박스플롯 학습(`boxplot()`)
@@ -37,3 +37,16 @@
 - 레이다 차트 학습
 - 생키 다이어그램 학습(`Sankey()`)
 - 3차원 플로팅 학습(`mplot3d()`)
+
+---
+
+##  Day 3 (2021-10-07)
+
+- FontProperties를 사용하는 방법 
+ - 1. 그래프의 폰트가 필요한 항목마다 지정한다. 
+  - `fm.FontProperties(fname=font, size=15)`
+ - 2. matplotlib 라이브러리의 rcParams[]로 전역 글꼴로 설정한다. 
+  - `plt.rcParams['font.family'] = 'NanumGothic'`
+  - `plt.rc('font', family=font_name)`
+ - 3. rcParams를 matplotlib 설정 파일에 직접 넣어준다.
+  - font.family: NanumGothicCoding
