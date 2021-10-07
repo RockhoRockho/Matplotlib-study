@@ -50,3 +50,12 @@
   - `plt.rc('font', family=font_name)`
  - 3. rcParams를 matplotlib 설정 파일에 직접 넣어준다.
   - font.family: NanumGothicCoding
+
+- anscombe 그래프출력 
+ - figure()
+ - add_subplot(행, 열, 위치)
+ - plot() 데이터전달
+ - title() 제목추가
+ - suptitle() 전체제목추가
+ - show() 그래프출력
+
